@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zaitceva Aleksandra">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Users Info</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="assets/img/users.png">
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="sorting-wrapper">
+                <p class="sorting-title">Sorting type</p>
+
+                <select name="sorting-type" class="sorting-select">
+                    <option value="-1" disabled selected>Select sorting type</option>
+                    <option value="0">A-Z</option>
+                    <option value="1">Z-A</option>
+                </select>
+
+            </div>
+
+            <div class="user-list-wrapper"></div>
+
+            <div class="user-card">
+                <div class="card-wrapper">
+
+                    <div class="close-button"></div>
+
+                    <div class="user-card-name-wrapper">
+                        <p class="user-card-name"></p>
+                    </div>
+
+                    <div class="user-fullInfo-wrapper">
+
+                        <div class="user-image">
+                            <img src="" class="image__large">
+                        </div>
+
+                        <div class="user-full-info">
+
+                            <div class="line-wrapper">
+                                <img src="assets/img/location.svg" class="icon">
+                                <div class="address"></div>
+                            </div>
+
+                            <div class="line-wrapper">
+                                <img src="assets/img/email.svg" class="icon">
+                                <div class="email"></div>
+                            </div>
+
+                            <div class="line-wrapper">
+                                <img src="assets/img/phone.svg" class="icon">
+                                <div class="phone-number"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="js/loader.js"></script>
+        <script src="js/UserHTMLTemplate.js"></script>
+        <script src="js/UserService.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
