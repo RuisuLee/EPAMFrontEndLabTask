@@ -1,6 +1,6 @@
 class UserService {
     constructor() {
-        this.API = "https://api.randomuser.me/1.0/me/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture";
+        this.API = "https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture";
         this.usersList = [];
         this.sortingType = -1;
     }
